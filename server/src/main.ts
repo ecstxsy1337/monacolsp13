@@ -3,7 +3,7 @@ import * as rpc from 'vscode-ws-jsonrpc'
 import { launch } from './launch'
 
 // If you change the port, make sure to also change it for the client!
-const port = 8080
+const port = 3000
 
 new WebSocketServer({ port }).on('connection', (webSocket) => {
     const socket: rpc.IWebSocket = {
