@@ -12,7 +12,7 @@ import { registerLanguage } from './registerLanguage'
 MonacoServices.install(monaco)
 
 // If you change the port, make sure to also change it for the server!
-const port = 8080
+const port = 3000
 
 registerLanguage()
 registerFormatting({
