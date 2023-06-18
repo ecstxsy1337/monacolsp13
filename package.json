@@ -1,7 +1,7 @@
 {
   "name": "monaco-lua-example",
   "scripts": {
-    "start": "npm run start -w server & npm run start -w client",
+    "start": "npm run dev -w server & npm run dev -w client",
     "build": "npm run build -ws",
     "start-server": "npm run start -w server"
   },
